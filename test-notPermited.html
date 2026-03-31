@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CORS Test - Allowed vs Blocked</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    .allowed { color: green; font-weight: bold; }
+    .blocked { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+<h1>CORS Test Page</h1>
+<p>This page will test your API endpoint from this origin.</p>
+
+<div id="result"></div>
+
+<script>
+const url = "https://localhost:8443/api/users/me"; // Your API endpoint
+const token = "YOUR_API_KEY"; // Replace with your actual API key
+const resultDiv = document.getElementById("result");
+
+fetch(url, {
+  method: "GET",
+  headers: { "Authorization": "Bearer " + token },
+  mode: "cors",
+  credentials: "include"
+})
+.then(res => res.json())
+.then(data => {
+  console.log("✅ Allowed:", data);
+  resultDiv.innerHTML = "<p class='allowed'>✅ Success! Your origin is allowed by the server. Data fetched successfully.</p>";
+})
+.catch(err => {
+  console.error("❌ Blocked by CORS:", err.message);
+  resultDiv.innerHTML = "<p class='blocked'>❌ Request blocked! Your origin is <strong>NOT ALLOWED</strong> by the server's CORS policy.</p>";
+});
+</script>
+</body>
+</html>

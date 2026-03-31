@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:3000/api/auth/signup
+url: http://localhost:3000/api/auth/signup
+method: POST
+body:
+  type: json
+  content: ""
+order: 1773045665432

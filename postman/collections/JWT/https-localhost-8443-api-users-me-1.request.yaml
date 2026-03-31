@@ -1,0 +1,5 @@
+$kind: http-request
+name: https://localhost:8443/api/users/me
+url: https://localhost:8443/api/users/me
+method: GET
+order: 4220584318658716

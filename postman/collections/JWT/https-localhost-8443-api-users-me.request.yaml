@@ -1,0 +1,22 @@
+$kind: http-request
+name: https://localhost:8443/api/users/me
+url: https://localhost:8443/api/auth/signin
+method: GET
+headers:
+  - key: x-access-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzUxZTllY2Q1YzMxYjkzMmRjYmMxNiIsImlhdCI6MTc3NDUyNjI3NSwiZXhwIjoxNzc0NjEyNjc1fQ.E_mT0VxDZZh074fGgUPlYeHTc5XwkIzJ1p1LynNUyYg
+body:
+  type: json
+  content: "{\r
+
+    \  \"username\": \"testuser2\",\r
+
+    \  \"password\": \"12345678\"\r
+
+    }"
+auth:
+  credentials:
+    - key: token
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzUxZTllY2Q1YzMxYjkzMmRjYmMxNiIsImlhdCI6MTc3NDUzOTQyNSwiZXhwIjoxNzc0NjI1ODI1fQ.LpIbHXbM2RW6pgv-cmjwQw6oNzbQKXmw8QxvxPmVR2s
+  type: bearer
+order: 1773045593715

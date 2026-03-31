@@ -1,0 +1,8 @@
+# CyberSecurity Phase-1 Internship Project
+
+This repository contains my submission for Phase-1 of the DevelopersHub Cyber Security Internship. It includes:
+- PDF Report summarizing tasks, results, and fixes.
+- Scripts and configuration files used during testing.
+- Screenshots of testing results.
+
+Submitted by: Geletaw Abebe Tsegaye

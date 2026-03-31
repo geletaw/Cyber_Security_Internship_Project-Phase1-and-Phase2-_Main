@@ -1,0 +1,1086 @@
+2026-03-07 13:10:25 [INFO] Application started
+2026-03-07 13:15:38 [INFO] Application started
+2026-03-07 13:15:38 [INFO] Server is running
+2026-03-07 13:15:38 [WARN] This is a warning test
+2026-03-07 13:15:38 [ERROR] This is an error test
+2026-03-07 13:18:51 [INFO] User signed in: admin1
+2026-03-07 13:19:25 [WARN] Failed login attempt: Invalid password -> admin1
+2026-03-07 13:28:12 [INFO] Application started
+2026-03-07 13:28:12 [INFO] Server is running
+2026-03-07 13:28:12 [WARN] This is a warning test
+2026-03-07 13:28:12 [ERROR] This is an error test
+2026-03-07 13:29:40 [INFO] Application started
+2026-03-07 13:29:40 [INFO] Server is running
+2026-03-07 13:29:40 [WARN] This is a warning test
+2026-03-07 13:29:40 [ERROR] This is an error test
+2026-03-07 13:32:17 [INFO] User signed up successfully: john123
+2026-03-07 13:40:34 [INFO] User signed up successfully: john123
+2026-03-07 13:41:55 [INFO] User signed in: john123
+2026-03-07 13:42:13 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:42:18 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:42:20 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:42:22 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:42:24 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:30 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:49 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:50 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:51 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:52 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:53 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:54 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:57 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:49:58 [WARN] Failed login attempt: Invalid password -> john123
+2026-03-07 13:50:32 [INFO] Application started
+2026-03-07 13:50:32 [INFO] Server is running
+2026-03-07 13:50:32 [WARN] This is a warning test
+2026-03-07 13:50:32 [ERROR] This is an error test
+2026-03-07 13:50:52 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:50:52 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> john123 | ip=::1
+2026-03-07 13:50:58 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:50:58 [INFO] [AUTH] User signed in successfully | user=john123 | ip=::1
+2026-03-07 13:51:32 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:51:32 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> john123 | ip=::1
+2026-03-07 13:51:34 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:51:34 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> john123 | ip=::1
+2026-03-07 13:51:35 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:51:35 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> john123 | ip=::1
+2026-03-07 13:51:36 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:51:36 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> john123 | ip=::1
+2026-03-07 13:51:36 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:51:37 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> john123 | ip=::1
+2026-03-07 13:51:37 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 13:51:37 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 13:51:37 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> john123 | ip=::1
+2026-03-07 13:51:37 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 14:01:15 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 14:01:15 [INFO] [AUTH] User signed in successfully | user=john123 | ip=::1
+2026-03-07 14:04:04 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 14:04:04 [INFO] [AUTH] User signed in successfully | user=john123 | ip=::1
+2026-03-07 14:22:27 [INFO] Application started
+2026-03-07 14:22:27 [INFO] Server is running
+2026-03-07 14:22:27 [WARN] This is a warning test
+2026-03-07 14:22:27 [ERROR] This is an error test
+2026-03-07 15:57:46 [INFO] Application started
+2026-03-07 15:57:46 [INFO] Server is initializing...
+2026-03-07 15:57:46 [WARN] This is a warning test
+2026-03-07 15:57:46 [ERROR] This is an error test
+2026-03-07 15:57:46 [INFO] HTTPS server running on port 8443
+2026-03-07 15:57:46 [INFO] Successfully connected to MongoDB.
+2026-03-07 16:00:13 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:00:13 [INFO] [AUTH] User signed in successfully | user=john123 | ip=::1
+2026-03-07 16:03:01 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:03:01 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> john123 | ip=::1
+2026-03-07 16:03:16 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:03:16 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> john123 | ip=::1
+2026-03-07 16:03:30 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:03:30 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> john123 | ip=::1
+2026-03-07 16:03:48 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:03:48 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> john123 | ip=::1
+2026-03-07 16:04:17 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:04:17 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> john123 | ip=::1
+2026-03-07 16:04:17 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 16:04:18 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:04:18 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> john123 | ip=::1
+2026-03-07 16:04:18 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 16:04:19 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:04:19 [WARN] [AUTH] Failed login attempt 7 | Invalid password -> john123 | ip=::1
+2026-03-07 16:04:19 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 16:04:20 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:04:20 [WARN] [AUTH] Failed login attempt 8 | Invalid password -> john123 | ip=::1
+2026-03-07 16:04:20 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 16:14:19 [WARN] Failed signup attempt: Invalid username -> <script>alert('XSS');</script>
+2026-03-07 16:15:37 [INFO] [AUTH] Login attempt | user=admin' OR '1'='1 | ip=::1
+2026-03-07 16:15:37 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> admin' OR '1'='1 | ip=::1
+2026-03-07 16:18:09 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:18:10 [WARN] [AUTH] Failed login attempt 9 | Invalid password -> john123 | ip=::1
+2026-03-07 16:18:10 [ERROR] [SECURITY] Possible brute force attack | user=john123 | ip=::1
+2026-03-07 16:18:23 [INFO] [AUTH] Login attempt | user=john123 | ip=::1
+2026-03-07 16:18:23 [INFO] [AUTH] User signed in successfully | user=john123 | ip=::1
+2026-03-07 16:28:21 [INFO] Application started
+2026-03-07 16:28:21 [INFO] Server is initializing...
+2026-03-07 16:28:21 [WARN] This is a warning test
+2026-03-07 16:28:21 [ERROR] This is an error test
+2026-03-07 16:28:21 [INFO] HTTPS server running on port 8443
+2026-03-07 16:28:21 [INFO] Successfully connected to MongoDB.
+2026-03-07 16:44:10 [INFO] User signed up successfully: testuser
+2026-03-07 16:44:18 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-07 16:44:18 [INFO] [AUTH] User signed in successfully | user=testuser | ip=::1
+2026-03-07 16:46:35 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-07 16:46:35 [INFO] [AUTH] User signed in successfully | user=testuser | ip=::1
+2026-03-07 17:04:07 [ERROR] Signup unexpected error: Expected a string but received a undefined
+2026-03-07 17:05:03 [INFO] User signed up successfully: geletaw
+2026-03-07 17:05:18 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:05:18 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:05:43 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:05:43 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:06:34 [INFO] User signed up successfully: geletaw
+2026-03-07 17:06:54 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:06:54 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:08:28 [INFO] User signed up successfully: geletaw
+2026-03-07 17:09:23 [INFO] Application started
+2026-03-07 17:09:23 [INFO] Server is initializing...
+2026-03-07 17:09:23 [WARN] This is a warning test
+2026-03-07 17:09:23 [ERROR] This is an error test
+2026-03-07 17:09:29 [INFO] HTTPS server running on port 8443
+2026-03-07 17:09:29 [INFO] Successfully connected to MongoDB.
+2026-03-07 17:12:59 [INFO] Application started
+2026-03-07 17:12:59 [INFO] Server is initializing...
+2026-03-07 17:12:59 [WARN] This is a warning test
+2026-03-07 17:12:59 [ERROR] This is an error test
+2026-03-07 17:12:59 [INFO] HTTPS server running on port 8443
+2026-03-07 17:12:59 [INFO] Successfully connected to MongoDB.
+2026-03-07 17:13:21 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:13:21 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:15:05 [INFO] User signed up successfully: geletaw
+2026-03-07 17:15:36 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:15:36 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:18:14 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:18:14 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:21:35 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:21:35 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> geletaw | ip=::1
+2026-03-07 17:25:41 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:25:41 [WARN] [AUTH] Failed login attempt 5 | User not found -> geletaw | ip=::1
+2026-03-07 17:25:41 [ERROR] [SECURITY] Possible brute force attack | user=geletaw | ip=::1
+2026-03-07 17:26:00 [INFO] User signed up successfully: geletaw
+2026-03-07 17:26:23 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:26:23 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 17:39:53 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:39:53 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 17:47:47 [INFO] Application started
+2026-03-07 17:47:47 [INFO] Server is initializing...
+2026-03-07 17:47:47 [WARN] This is a warning test
+2026-03-07 17:47:47 [ERROR] This is an error test
+2026-03-07 17:47:51 [INFO] HTTPS server running on port 8443
+2026-03-07 17:47:51 [INFO] Successfully connected to MongoDB.
+2026-03-07 17:54:33 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:54:33 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 17:54:59 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:54:59 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 17:55:15 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 17:55:15 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:01:54 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 18:01:54 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:02:00 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:05:25 [INFO] [AUTH] Login attempt | user=geletaw | ip=::1
+2026-03-07 18:05:25 [INFO] [AUTH] User signed in successfully | user=geletaw | ip=::1
+2026-03-07 18:08:44 [INFO] Application started
+2026-03-07 18:08:44 [INFO] Server is initializing...
+2026-03-07 18:08:44 [WARN] This is a warning test
+2026-03-07 18:08:44 [ERROR] This is an error test
+2026-03-07 18:08:48 [INFO] HTTPS server running on port 8443
+2026-03-07 18:08:48 [INFO] Successfully connected to MongoDB.
+2026-03-07 18:13:19 [WARN] Failed signup attempt: Password too short -> gela
+2026-03-07 18:13:54 [INFO] User signed up successfully: gela
+2026-03-07 18:14:20 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:14:20 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:18:58 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:28 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:28 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:28 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:19:28 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:19:28 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:25:22 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:25:22 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:28:35 [WARN] Failed signup attempt: Invalid username -> <script>alert('XSS');</script>
+2026-03-07 18:33:49 [INFO] [AUTH] Login attempt | user=admin' OR '1'='1 | ip=::1
+2026-03-07 18:33:49 [WARN] [AUTH] Failed login attempt 1 | User not found -> admin' OR '1'='1 | ip=::1
+2026-03-07 18:36:15 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:15 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:36:21 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:21 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:36:23 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:23 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:36:25 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:25 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:36:26 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:26 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:36:57 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:57 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-07 18:36:58 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:58 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> gela | ip=::1
+2026-03-07 18:36:59 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:36:59 [WARN] [AUTH] Failed login attempt 7 | Invalid password -> gela | ip=::1
+2026-03-07 18:37:00 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:37:00 [WARN] [AUTH] Failed login attempt 8 | Invalid password -> gela | ip=::1
+2026-03-07 18:37:09 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:37:09 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:38:40 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:38:40 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:38:41 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:38:41 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:38:42 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:38:42 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:38:43 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:38:43 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:41:35 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:41:35 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:41:42 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:41:42 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:41:44 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:41:44 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:41:45 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:41:45 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:41:46 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:41:46 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:41:47 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:41:47 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-07 18:42:18 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:42:18 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> gela | ip=::1
+2026-03-07 18:42:23 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:42:23 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:45:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:45:27 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:45:28 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:45:28 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:45:29 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:45:29 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:45:30 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:45:30 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:45:31 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:45:31 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-07 18:45:32 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:45:32 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> gela | ip=::1
+2026-03-07 18:47:58 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:47:59 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:48:01 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:01 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:48:05 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:05 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:48:06 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:06 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:48:07 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:07 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:48:08 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:08 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:48:09 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:09 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-07 18:48:10 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:10 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> gela | ip=::1
+2026-03-07 18:48:11 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:48:11 [WARN] [AUTH] Failed login attempt 7 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:11 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:11 [WARN] [AUTH] Failed login attempt 8 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:12 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:12 [WARN] [AUTH] Failed login attempt 9 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:13 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:13 [WARN] [AUTH] Failed login attempt 10 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:14 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:14 [WARN] [AUTH] Failed login attempt 11 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:15 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:15 [WARN] [AUTH] Failed login attempt 12 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:16 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:16 [WARN] [AUTH] Failed login attempt 13 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:17 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:17 [WARN] [AUTH] Failed login attempt 14 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:17 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:17 [WARN] [AUTH] Failed login attempt 15 | Invalid password -> gela | ip=::1
+2026-03-07 18:53:49 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:49 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:53:51 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:51 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:53:52 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:52 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:53:53 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:53:53 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-07 18:54:06 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:06 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:54:07 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:07 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:54:08 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:08 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:54:08 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:09 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:54:09 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:09 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-07 18:54:10 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:10 [WARN] [AUTH] Failed login attempt 6 | Invalid password -> gela | ip=::1
+2026-03-07 18:54:11 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:54:11 [WARN] [AUTH] Failed login attempt 7 | Invalid password -> gela | ip=::1
+2026-03-07 18:56:24 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:56:24 [WARN] [AUTH] Failed login attempt 8 | Invalid password -> gela | ip=::1
+2026-03-07 18:56:25 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:56:25 [WARN] [AUTH] Failed login attempt 9 | Invalid password -> gela | ip=::1
+2026-03-07 18:56:26 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:56:26 [WARN] [AUTH] Failed login attempt 10 | Invalid password -> gela | ip=::1
+2026-03-07 18:56:27 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:56:27 [WARN] [AUTH] Failed login attempt 11 | Invalid password -> gela | ip=::1
+2026-03-07 18:56:28 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:56:28 [WARN] [AUTH] Failed login attempt 12 | Invalid password -> gela | ip=::1
+2026-03-07 18:58:33 [INFO] Application started
+2026-03-07 18:58:33 [INFO] Server is initializing...
+2026-03-07 18:58:33 [WARN] This is a warning test
+2026-03-07 18:58:33 [ERROR] This is an error test
+2026-03-07 18:58:40 [INFO] HTTPS server running on port 8443
+2026-03-07 18:58:40 [INFO] Successfully connected to MongoDB.
+2026-03-07 18:58:43 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:43 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-07 18:58:44 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:44 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-07 18:58:44 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:45 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-07 18:58:46 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:46 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-07 18:58:47 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:47 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-07 18:58:47 [ERROR] [SECURITY] Possible brute force attack | user=gela | ip=::1
+2026-03-07 18:58:48 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:48 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-07 18:58:48 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:48 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-07 18:58:49 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:49 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-07 18:58:50 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:50 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-07 18:58:51 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-07 18:58:51 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-07 19:13:18 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-07 19:13:18 [WARN] [AUTH] Failed login attempt 1 | User not found -> admin | ip=::1
+2026-03-07 19:13:20 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-07 19:13:20 [WARN] [AUTH] Failed login attempt 2 | User not found -> admin | ip=::1
+2026-03-07 19:13:21 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-07 19:13:21 [WARN] [AUTH] Failed login attempt 3 | User not found -> admin | ip=::1
+2026-03-07 19:13:22 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-07 19:13:22 [WARN] [AUTH] Failed login attempt 4 | User not found -> admin | ip=::1
+2026-03-07 19:13:23 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-07 19:13:23 [WARN] [AUTH] Failed login attempt 5 | User not found -> admin | ip=::1
+2026-03-07 19:13:23 [ERROR] [SECURITY] Possible brute force attack | user=admin | ip=::1
+2026-03-07 19:13:24 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-07 19:13:24 [ERROR] [SECURITY] Brute-force lockout | user=admin | ip=::1 | attempts=5
+2026-03-09 10:37:24 [INFO] Application started
+2026-03-09 10:37:24 [INFO] Server is initializing...
+2026-03-09 10:37:24 [WARN] This is a warning test
+2026-03-09 10:37:24 [ERROR] This is an error test
+2026-03-09 10:37:25 [INFO] HTTPS server running on port 8443
+2026-03-09 10:37:25 [INFO] Successfully connected to MongoDB.
+2026-03-09 10:37:49 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-09 10:37:49 [WARN] [AUTH] Failed login attempt 1 | User not found -> admin | ip=::1
+2026-03-09 10:40:50 [WARN] Failed signup attempt: Invalid username -> <script>alert('XSS')</script>
+2026-03-09 10:43:18 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:43:18 [INFO] [AUTH] User signed in successfully | user=gela | ip=::1
+2026-03-09 10:44:46 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:44:46 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> gela | ip=::1
+2026-03-09 10:44:51 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:44:51 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> gela | ip=::1
+2026-03-09 10:44:52 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:44:52 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> gela | ip=::1
+2026-03-09 10:44:53 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:44:53 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> gela | ip=::1
+2026-03-09 10:44:54 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:44:54 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> gela | ip=::1
+2026-03-09 10:44:54 [ERROR] [SECURITY] Possible brute force attack | user=gela | ip=::1
+2026-03-09 10:44:55 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:44:55 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-09 10:55:00 [INFO] [AUTH] Login attempt | user=gela | ip=::1
+2026-03-09 10:55:00 [ERROR] [SECURITY] Brute-force lockout | user=gela | ip=::1 | attempts=5
+2026-03-09 10:56:36 [INFO] [AUTH] Login attempt | user=gela.a | ip=::1
+2026-03-09 10:56:36 [WARN] [AUTH] Failed login attempt 1 | User not found -> gela.a | ip=::1
+2026-03-09 10:56:42 [INFO] [AUTH] Login attempt | user=gela.a | ip=::1
+2026-03-09 10:56:42 [WARN] [AUTH] Failed login attempt 2 | User not found -> gela.a | ip=::1
+2026-03-09 10:56:42 [INFO] [AUTH] Login attempt | user=gela.a | ip=::1
+2026-03-09 10:56:42 [WARN] [AUTH] Failed login attempt 3 | User not found -> gela.a | ip=::1
+2026-03-09 10:56:42 [INFO] [AUTH] Login attempt | user=gela.a | ip=::1
+2026-03-09 10:56:42 [WARN] [AUTH] Failed login attempt 4 | User not found -> gela.a | ip=::1
+2026-03-09 10:57:30 [WARN] Failed signup attempt: Invalid username -> gela.a
+2026-03-09 10:57:39 [WARN] Failed signup attempt: Invalid username -> gela.a
+2026-03-09 11:00:09 [INFO] Application started
+2026-03-09 11:00:09 [INFO] Server is initializing...
+2026-03-09 11:00:09 [WARN] This is a warning test
+2026-03-09 11:00:09 [ERROR] This is an error test
+2026-03-09 11:00:10 [INFO] HTTPS server running on port 8443
+2026-03-09 11:00:10 [INFO] Successfully connected to MongoDB.
+2026-03-09 11:01:49 [WARN] Failed signup attempt: Invalid username -> gela.a
+2026-03-09 11:02:00 [WARN] Failed signup attempt: Password too short -> test
+2026-03-09 11:02:13 [INFO] User signed up successfully: test
+2026-03-09 11:02:21 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 11:02:21 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 11:13:44 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 11:13:44 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 11:17:16 [INFO] Application started
+2026-03-09 11:17:16 [INFO] Server is initializing...
+2026-03-09 11:17:16 [WARN] This is a warning test
+2026-03-09 11:17:16 [ERROR] This is an error test
+2026-03-09 11:17:17 [INFO] HTTPS server running on port 8443
+2026-03-09 11:17:17 [INFO] Successfully connected to MongoDB.
+2026-03-09 11:22:25 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 11:22:25 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 11:24:01 [INFO] Application started
+2026-03-09 11:24:01 [INFO] Server is initializing...
+2026-03-09 11:24:01 [WARN] This is a warning test
+2026-03-09 11:24:01 [ERROR] This is an error test
+2026-03-09 11:24:01 [INFO] HTTPS server running on port 8443
+2026-03-09 11:24:01 [INFO] Successfully connected to MongoDB.
+2026-03-09 11:27:54 [INFO] Application started
+2026-03-09 11:27:54 [INFO] Server is initializing...
+2026-03-09 11:27:54 [WARN] This is a warning test
+2026-03-09 11:27:54 [ERROR] This is an error test
+2026-03-09 11:27:55 [INFO] HTTPS server running on port 8443
+2026-03-09 11:27:55 [INFO] Successfully connected to MongoDB.
+2026-03-09 11:31:59 [INFO] Application started
+2026-03-09 11:31:59 [INFO] Server is initializing...
+2026-03-09 11:31:59 [WARN] This is a warning test
+2026-03-09 11:31:59 [ERROR] This is an error test
+2026-03-09 11:31:59 [INFO] HTTPS server running on port 8443
+2026-03-09 11:31:59 [INFO] Successfully connected to MongoDB.
+2026-03-09 11:32:18 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 11:32:18 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 11:38:19 [INFO] Application started
+2026-03-09 11:38:19 [INFO] Server is initializing...
+2026-03-09 11:38:19 [WARN] This is a warning test
+2026-03-09 11:38:19 [ERROR] This is an error test
+2026-03-09 11:38:19 [INFO] HTTPS server running on port 8443
+2026-03-09 11:38:19 [INFO] Successfully connected to MongoDB.
+2026-03-09 11:44:17 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 11:44:17 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:21:26 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:21:26 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:25:14 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:25:14 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:27:07 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:27:07 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:27:27 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:27:27 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:29:02 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:29:02 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> test | ip=::1
+2026-03-09 15:29:14 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:29:14 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:33:21 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:33:21 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 15:34:32 [INFO] [AUTH] Login attempt | user=test | ip=::1
+2026-03-09 15:34:32 [INFO] [AUTH] User signed in successfully | user=test | ip=::1
+2026-03-09 16:12:41 [INFO] User signed up successfully: mod1
+2026-03-09 16:35:30 [INFO] User signed up successfully: admin1
+2026-03-25 18:01:29 [INFO] Application started
+2026-03-25 18:01:30 [INFO] Server is initializing...
+2026-03-25 18:01:30 [WARN] This is a warning test
+2026-03-25 18:01:30 [ERROR] This is an error test
+2026-03-25 18:01:34 [INFO] HTTPS server running on port 8443
+2026-03-25 18:01:34 [INFO] Successfully connected to MongoDB.
+2026-03-25 18:12:39 [INFO] Application started
+2026-03-25 18:12:39 [INFO] Server is initializing...
+2026-03-25 18:12:39 [WARN] This is a warning test
+2026-03-25 18:12:39 [ERROR] This is an error test
+2026-03-25 18:12:42 [INFO] HTTPS server running on port 8443
+2026-03-25 18:12:42 [INFO] Successfully connected to MongoDB.
+2026-03-25 18:17:40 [INFO] Application started
+2026-03-25 18:17:40 [INFO] Server is initializing...
+2026-03-25 18:17:40 [WARN] This is a warning test
+2026-03-25 18:17:40 [ERROR] This is an error test
+2026-03-25 18:17:41 [INFO] HTTPS server running on port 8443
+2026-03-25 18:17:41 [INFO] Successfully connected to MongoDB.
+2026-03-25 18:18:47 [INFO] Application started
+2026-03-25 18:18:47 [INFO] Server is initializing...
+2026-03-25 18:18:47 [WARN] This is a warning test
+2026-03-25 18:18:47 [ERROR] This is an error test
+2026-03-25 18:18:48 [INFO] HTTPS server running on port 8443
+2026-03-25 18:18:48 [INFO] Successfully connected to MongoDB.
+2026-03-25 18:20:11 [ERROR] Default role assignment error: Command find requires authentication
+2026-03-25 18:36:22 [INFO] Application started
+2026-03-25 18:36:22 [INFO] Server is initializing...
+2026-03-25 18:36:22 [INFO] HTTPS server running on port 8443
+2026-03-25 18:36:22 [INFO] Successfully connected to MongoDB with authentication.
+2026-03-25 18:39:53 [INFO] User signed up successfully: testuser
+2026-03-25 18:40:34 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-25 18:40:35 [INFO] [AUTH] User signed in successfully | user=testuser | ip=::1
+2026-03-25 18:53:31 [INFO] Application started
+2026-03-25 18:53:31 [INFO] Server is initializing...
+2026-03-25 18:53:31 [INFO] HTTPS server running on port 8443
+2026-03-25 18:53:31 [INFO] Successfully connected to MongoDB with authentication.
+2026-03-25 18:57:14 [INFO] User signed up successfully: testuser
+2026-03-25 18:57:41 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-25 18:57:41 [INFO] [AUTH] User signed in successfully | user=testuser | ip=::1
+2026-03-25 19:04:28 [INFO] Application started
+2026-03-25 19:04:28 [INFO] Server is initializing...
+2026-03-25 19:04:28 [WARN] This is a warning test
+2026-03-25 19:04:28 [ERROR] This is an error test
+2026-03-25 19:04:28 [INFO] HTTPS server running on port 8443
+2026-03-25 19:04:28 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:12:34 [INFO] Application started
+2026-03-25 19:12:34 [INFO] Server is initializing...
+2026-03-25 19:12:34 [WARN] This is a warning test
+2026-03-25 19:12:34 [ERROR] This is an error test
+2026-03-25 19:12:34 [INFO] HTTPS server running on port 8443
+2026-03-25 19:12:34 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:20:50 [INFO] Application started
+2026-03-25 19:20:50 [INFO] Server is initializing...
+2026-03-25 19:20:50 [WARN] This is a warning test
+2026-03-25 19:20:50 [ERROR] This is an error test
+2026-03-25 19:20:50 [INFO] HTTPS server running on port 8443
+2026-03-25 19:20:50 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:26:25 [INFO] Application started
+2026-03-25 19:26:25 [INFO] Server is initializing...
+2026-03-25 19:26:25 [WARN] This is a warning test
+2026-03-25 19:26:25 [ERROR] This is an error test
+2026-03-25 19:26:26 [INFO] HTTPS server running on port 8443
+2026-03-25 19:26:26 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:27:40 [INFO] Application started
+2026-03-25 19:27:40 [INFO] Server is initializing...
+2026-03-25 19:27:40 [WARN] This is a warning test
+2026-03-25 19:27:40 [ERROR] This is an error test
+2026-03-25 19:27:40 [INFO] HTTPS server running on port 8443
+2026-03-25 19:27:40 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:37:07 [INFO] Application started
+2026-03-25 19:37:07 [INFO] Server is initializing...
+2026-03-25 19:37:07 [WARN] This is a warning test
+2026-03-25 19:37:07 [ERROR] This is an error test
+2026-03-25 19:37:08 [INFO] HTTPS server running on port 8443
+2026-03-25 19:37:08 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:43:25 [INFO] Application started
+2026-03-25 19:43:25 [INFO] Server is initializing...
+2026-03-25 19:43:25 [WARN] This is a warning test
+2026-03-25 19:43:25 [ERROR] This is an error test
+2026-03-25 19:43:25 [INFO] HTTPS server running on port 8443
+2026-03-25 19:43:25 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:46:14 [INFO] Application started
+2026-03-25 19:46:14 [INFO] Server is initializing...
+2026-03-25 19:46:14 [WARN] This is a warning test
+2026-03-25 19:46:14 [ERROR] This is an error test
+2026-03-25 19:46:15 [INFO] HTTPS server running on port 8443
+2026-03-25 19:46:15 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:49:37 [INFO] Application started
+2026-03-25 19:49:37 [INFO] Server is initializing...
+2026-03-25 19:49:37 [WARN] This is a warning test
+2026-03-25 19:49:37 [ERROR] This is an error test
+2026-03-25 19:49:38 [INFO] HTTPS server running on port 8443
+2026-03-25 19:49:38 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:51:31 [INFO] Application started
+2026-03-25 19:51:31 [INFO] Server is initializing...
+2026-03-25 19:51:31 [WARN] This is a warning test
+2026-03-25 19:51:31 [ERROR] This is an error test
+2026-03-25 19:51:32 [INFO] HTTPS server running on port 8443
+2026-03-25 19:51:32 [INFO] Successfully connected to MongoDB.
+2026-03-25 19:56:12 [INFO] Application started
+2026-03-25 19:56:12 [INFO] Server is initializing...
+2026-03-25 19:56:12 [WARN] This is a warning test
+2026-03-25 19:56:12 [ERROR] This is an error test
+2026-03-25 19:56:13 [INFO] HTTPS server running on port 8443
+2026-03-25 19:56:13 [INFO] Successfully connected to MongoDB.
+2026-03-25 20:03:47 [INFO] Application started
+2026-03-25 20:03:47 [INFO] Server initializing...
+2026-03-25 20:03:47 [WARN] This is a warning test
+2026-03-25 20:03:47 [ERROR] This is an error test
+2026-03-25 20:03:47 [INFO] HTTPS server running on port 8443
+2026-03-25 20:03:47 [INFO] Connected to MongoDB.
+2026-03-26 11:03:50 [INFO] Application started
+2026-03-26 11:03:50 [INFO] Server initializing...
+2026-03-26 11:03:50 [WARN] This is a warning test
+2026-03-26 11:03:50 [ERROR] This is an error test
+2026-03-26 11:03:54 [INFO] HTTPS server running on port 8443
+2026-03-26 11:03:54 [INFO] Connected to MongoDB.
+2026-03-26 11:20:31 [INFO] Application started
+2026-03-26 11:20:31 [INFO] Server initializing...
+2026-03-26 11:20:31 [WARN] This is a warning test
+2026-03-26 11:20:31 [ERROR] This is an error test
+2026-03-26 11:20:31 [INFO] HTTPS server running on port 8443
+2026-03-26 11:20:31 [INFO] Connected to MongoDB.
+2026-03-26 11:20:59 [INFO] [AUTH] Login attempt | user=admin | ip=::1
+2026-03-26 11:20:59 [WARN] [AUTH] Failed login attempt 1 | User not found -> admin | ip=::1
+2026-03-26 11:24:25 [INFO] Application started
+2026-03-26 11:24:25 [INFO] Server initializing...
+2026-03-26 11:24:25 [WARN] This is a warning test
+2026-03-26 11:24:25 [ERROR] This is an error test
+2026-03-26 11:24:25 [INFO] HTTPS server running on port 8443
+2026-03-26 11:24:25 [INFO] Connected to MongoDB.
+2026-03-26 11:35:39 [INFO] Application started
+2026-03-26 11:35:39 [INFO] Server initializing...
+2026-03-26 11:35:39 [WARN] This is a warning test
+2026-03-26 11:35:39 [ERROR] This is an error test
+2026-03-26 11:35:39 [INFO] HTTPS server running on port 8443
+2026-03-26 11:35:39 [INFO] Connected to MongoDB.
+2026-03-26 11:37:25 [INFO] User signed up successfully: testuser
+2026-03-26 11:37:50 [INFO] User signed up successfully: testuser
+2026-03-26 11:38:36 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:38:36 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser | ip=::1
+2026-03-26 11:38:46 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:38:46 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser | ip=::1
+2026-03-26 11:39:02 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:39:02 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser | ip=::1
+2026-03-26 11:39:12 [INFO] User signed up successfully: testuser
+2026-03-26 11:39:34 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:39:34 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> testuser | ip=::1
+2026-03-26 11:45:05 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:45:05 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> testuser | ip=::1
+2026-03-26 11:45:05 [ERROR] [SECURITY] Possible brute force attack | user=testuser | ip=::1
+2026-03-26 11:45:07 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:45:07 [ERROR] [SECURITY] Brute-force lockout | user=testuser | ip=::1 | attempts=5
+2026-03-26 11:45:20 [INFO] Application started
+2026-03-26 11:45:20 [INFO] Server initializing...
+2026-03-26 11:45:20 [WARN] This is a warning test
+2026-03-26 11:45:20 [ERROR] This is an error test
+2026-03-26 11:45:21 [INFO] HTTPS server running on port 8443
+2026-03-26 11:45:21 [INFO] Connected to MongoDB.
+2026-03-26 11:46:29 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:46:29 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser | ip=::1
+2026-03-26 11:46:30 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:46:30 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser | ip=::1
+2026-03-26 11:50:11 [INFO] Application started
+2026-03-26 11:50:11 [INFO] Server initializing...
+2026-03-26 11:50:11 [WARN] This is a warning test
+2026-03-26 11:50:11 [ERROR] This is an error test
+2026-03-26 11:50:12 [INFO] HTTPS server running on port 8443
+2026-03-26 11:50:12 [INFO] Connected to MongoDB.
+2026-03-26 11:51:05 [INFO] User signed up successfully: testuser
+2026-03-26 11:51:21 [INFO] User signed up successfully: testuser
+2026-03-26 11:51:50 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 11:51:50 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser | ip=::1
+2026-03-26 11:57:20 [INFO] User signed up successfully: testuser
+2026-03-26 12:01:58 [INFO] User signed up successfully: testuser
+2026-03-26 12:02:55 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:02:55 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser | ip=::1
+2026-03-26 12:02:58 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:02:58 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser | ip=::1
+2026-03-26 12:02:59 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:02:59 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> testuser | ip=::1
+2026-03-26 12:03:01 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:03:01 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> testuser | ip=::1
+2026-03-26 12:03:01 [ERROR] [SECURITY] Possible brute force attack | user=testuser | ip=::1
+2026-03-26 12:03:02 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:03:02 [ERROR] [SECURITY] Brute-force lockout | user=testuser | ip=::1 | attempts=5
+2026-03-26 12:03:07 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:03:07 [ERROR] [SECURITY] Brute-force lockout | user=testuser | ip=::1 | attempts=5
+2026-03-26 12:04:00 [INFO] [AUTH] Login attempt | user=testser | ip=::1
+2026-03-26 12:04:00 [WARN] [AUTH] Failed login attempt 1 | User not found -> testser | ip=::1
+2026-03-26 12:04:12 [INFO] [AUTH] Login attempt | user=testuser | ip=::1
+2026-03-26 12:04:12 [ERROR] [SECURITY] Brute-force lockout | user=testuser | ip=::1 | attempts=5
+2026-03-26 12:05:17 [INFO] User signed up successfully: newuser1
+2026-03-26 12:05:50 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:05:50 [INFO] [AUTH] User signed in successfully | user=newuser1 | ip=::1
+2026-03-26 12:10:37 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:10:37 [INFO] [AUTH] User signed in successfully | user=newuser1 | ip=::1
+2026-03-26 12:10:45 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:10:45 [INFO] [AUTH] User signed in successfully | user=newuser1 | ip=::1
+2026-03-26 12:10:49 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:10:50 [INFO] [AUTH] User signed in successfully | user=newuser1 | ip=::1
+2026-03-26 12:10:55 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:10:55 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> newuser1 | ip=::1
+2026-03-26 12:10:58 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:10:58 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> newuser1 | ip=::1
+2026-03-26 12:15:20 [INFO] [AUTH] Login attempt | user=newuser1 | ip=::1
+2026-03-26 12:15:20 [INFO] [AUTH] User signed in successfully | user=newuser1 | ip=::1
+2026-03-26 14:44:41 [INFO] Application started
+2026-03-26 14:44:41 [INFO] Server initializing...
+2026-03-26 14:44:41 [WARN] This is a warning test
+2026-03-26 14:44:41 [ERROR] This is an error test
+2026-03-26 14:44:42 [INFO] HTTPS server running on port 8443
+2026-03-26 14:44:42 [INFO] Connected to MongoDB.
+2026-03-26 14:50:38 [INFO] Application started
+2026-03-26 14:50:38 [INFO] Server initializing...
+2026-03-26 14:50:38 [WARN] This is a warning test
+2026-03-26 14:50:38 [ERROR] This is an error test
+2026-03-26 14:50:39 [INFO] HTTPS server running on port 8443
+2026-03-26 14:50:39 [INFO] Connected to MongoDB.
+2026-03-26 14:54:28 [WARN] Failed signup attempt: Password too short -> testuser2
+2026-03-26 14:54:38 [WARN] Failed signup attempt: Password too short -> testuser2
+2026-03-26 14:55:10 [INFO] User signed up successfully: testuser2
+2026-03-26 14:57:55 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 14:57:55 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:24:49 [INFO] Application started
+2026-03-26 17:24:49 [INFO] Server initializing...
+2026-03-26 17:24:49 [WARN] This is a warning test
+2026-03-26 17:24:49 [ERROR] This is an error test
+2026-03-26 17:24:51 [INFO] HTTPS server running on port 8443
+2026-03-26 17:24:51 [INFO] Connected to MongoDB.
+2026-03-26 17:29:18 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:29:19 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:29:27 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:29:27 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:29:34 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:29:34 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:29:37 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:29:37 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:29:40 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:29:40 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:31:23 [INFO] Application started
+2026-03-26 17:31:23 [INFO] Server initializing...
+2026-03-26 17:31:23 [WARN] This is a warning test
+2026-03-26 17:31:23 [ERROR] This is an error test
+2026-03-26 17:31:24 [INFO] HTTPS server running on port 8443
+2026-03-26 17:31:24 [INFO] Connected to MongoDB.
+2026-03-26 17:31:30 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:31:31 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:31:33 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:31:33 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:31:38 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:31:38 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:31:43 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:31:43 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:31:45 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:31:45 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:37:19 [INFO] Application started
+2026-03-26 17:37:19 [INFO] Server initializing...
+2026-03-26 17:37:19 [WARN] This is a warning test
+2026-03-26 17:37:19 [ERROR] This is an error test
+2026-03-26 17:37:19 [INFO] HTTPS server running on port 8443
+2026-03-26 17:37:19 [INFO] Connected to MongoDB.
+2026-03-26 17:37:27 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:37:27 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:37:30 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:37:30 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:37:39 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:37:39 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:37:40 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:37:40 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:37:42 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:37:42 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:39:40 [INFO] Application started
+2026-03-26 17:39:40 [INFO] Server initializing...
+2026-03-26 17:39:40 [WARN] This is a warning test
+2026-03-26 17:39:40 [ERROR] This is an error test
+2026-03-26 17:39:40 [INFO] HTTPS server running on port 8443
+2026-03-26 17:39:41 [INFO] Connected to MongoDB.
+2026-03-26 17:39:45 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:39:45 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:39:46 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:39:46 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:39:50 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:39:50 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:39:52 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:39:52 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:39:53 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:39:53 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:43:45 [INFO] Application started
+2026-03-26 17:43:45 [INFO] Server initializing...
+2026-03-26 17:43:45 [WARN] This is a warning test
+2026-03-26 17:43:45 [ERROR] This is an error test
+2026-03-26 17:43:46 [INFO] HTTPS server running on port 8443
+2026-03-26 17:43:46 [INFO] Connected to MongoDB.
+2026-03-26 17:43:54 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:43:54 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:43:56 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:43:56 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:43:58 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:43:58 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:44:03 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:44:03 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:44:05 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:44:05 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:47:36 [INFO] Application started
+2026-03-26 17:47:36 [INFO] Server initializing...
+2026-03-26 17:47:36 [WARN] This is a warning test
+2026-03-26 17:47:36 [ERROR] This is an error test
+2026-03-26 17:47:36 [INFO] HTTPS server running on port 8443
+2026-03-26 17:47:36 [INFO] Connected to MongoDB.
+2026-03-26 17:47:44 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:47:45 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:47:47 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:47:47 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:47:52 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:47:52 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:47:55 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:47:55 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:47:57 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:47:57 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:48:47 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:48:47 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:48:52 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:48:52 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:48:57 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:48:57 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:48:58 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:48:58 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:48:59 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:48:59 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:55:44 [INFO] Application started
+2026-03-26 17:55:44 [INFO] Server initializing...
+2026-03-26 17:55:44 [WARN] This is a warning test
+2026-03-26 17:55:44 [ERROR] This is an error test
+2026-03-26 17:55:45 [INFO] HTTPS server running on port 8443
+2026-03-26 17:55:45 [INFO] Connected to MongoDB.
+2026-03-26 17:55:51 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:55:51 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:55:52 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:55:52 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 17:55:59 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:55:59 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:56:00 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:56:00 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 17:56:01 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 17:56:01 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:04:24 [INFO] Application started
+2026-03-26 18:04:24 [INFO] Server initializing...
+2026-03-26 18:04:24 [WARN] This is a warning test
+2026-03-26 18:04:24 [ERROR] This is an error test
+2026-03-26 18:04:24 [INFO] HTTPS server running on port 8443
+2026-03-26 18:04:25 [INFO] Connected to MongoDB.
+2026-03-26 18:04:36 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:04:36 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:04:55 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:04:55 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:04:59 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:04:59 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:05:01 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:05:01 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:05:02 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:05:02 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:16:26 [INFO] Application started
+2026-03-26 18:16:26 [INFO] Server initializing...
+2026-03-26 18:16:26 [WARN] This is a warning test
+2026-03-26 18:16:26 [ERROR] This is an error test
+2026-03-26 18:16:27 [INFO] HTTPS server running on port 8443
+2026-03-26 18:16:27 [INFO] Connected to MongoDB.
+2026-03-26 18:17:27 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:27 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:17:29 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:29 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:17:38 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:38 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:17:39 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:39 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:17:40 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:40 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:17:41 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:41 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:17:42 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:17:42 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:17:42 [ERROR] [SECURITY] IP temporarily blocked for 5 minutes | user=testuser2 | ip=::1
+2026-03-26 18:18:05 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:18:05 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:19:57 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:19:57 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:20:04 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:20:04 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:20:07 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:20:07 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:20:08 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:20:08 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:22:37 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:22:37 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:22:39 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:22:39 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:22:41 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:22:41 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:22:51 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:22:51 [INFO] [SECURITY] Temporary block expired | user=testuser2 | ip=::1
+2026-03-26 18:22:51 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:32:17 [INFO] Application started
+2026-03-26 18:32:17 [INFO] Server initializing...
+2026-03-26 18:32:17 [WARN] This is a warning test
+2026-03-26 18:32:17 [ERROR] This is an error test
+2026-03-26 18:32:18 [INFO] HTTPS server running on port 8443
+2026-03-26 18:32:18 [INFO] Connected to MongoDB.
+2026-03-26 18:34:50 [INFO] Application started
+2026-03-26 18:34:50 [INFO] Server initializing...
+2026-03-26 18:34:50 [WARN] This is a warning test
+2026-03-26 18:34:50 [ERROR] This is an error test
+2026-03-26 18:34:50 [INFO] HTTPS server running on port 8443
+2026-03-26 18:34:50 [INFO] Connected to MongoDB.
+2026-03-26 18:37:03 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:37:03 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:37:05 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:37:05 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:41:29 [INFO] Application started
+2026-03-26 18:41:29 [INFO] Server initializing...
+2026-03-26 18:41:29 [WARN] This is a warning test
+2026-03-26 18:41:29 [ERROR] This is an error test
+2026-03-26 18:41:29 [INFO] HTTPS server running on port 8443
+2026-03-26 18:41:29 [INFO] Connected to MongoDB.
+2026-03-26 18:44:02 [INFO] [AUTH] Login attempt | user=undefined | ip=::1
+2026-03-26 18:44:02 [WARN] [AUTH] Failed login attempt 1 | User not found -> undefined | ip=::1
+2026-03-26 18:45:05 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:45:05 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:47:19 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:47:19 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:49:56 [INFO] Application started
+2026-03-26 18:49:56 [INFO] Server initializing...
+2026-03-26 18:49:56 [WARN] This is a warning test
+2026-03-26 18:49:56 [ERROR] This is an error test
+2026-03-26 18:49:57 [INFO] HTTPS server running on port 8443
+2026-03-26 18:49:57 [INFO] Connected to MongoDB.
+2026-03-26 18:52:19 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:19 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:52:21 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:21 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:52:27 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:27 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:52:29 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:29 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:52:30 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:30 [WARN] [AUTH] Failed login attempt 3 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:52:31 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:31 [WARN] [AUTH] Failed login attempt 4 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:52:32 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:32 [WARN] [AUTH] Failed login attempt 5 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:52:32 [ERROR] [SECURITY] IP temporarily blocked for 5 minutes | user=testuser2 | ip=::1
+2026-03-26 18:52:39 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:52:39 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:54:32 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:54:32 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:54:34 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:54:34 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:56:05 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:56:05 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:56:08 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:56:08 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:57:17 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:57:17 [ERROR] [SECURITY] Temporary block active | user=testuser2 | ip=::1
+2026-03-26 18:57:36 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:57:36 [INFO] [SECURITY] Temporary block expired | user=testuser2 | ip=::1
+2026-03-26 18:57:36 [WARN] [AUTH] Failed login attempt 1 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:57:45 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:57:46 [WARN] [AUTH] Failed login attempt 2 | Invalid password -> testuser2 | ip=::1
+2026-03-26 18:57:52 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 18:57:52 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 18:59:35 [INFO] Application started
+2026-03-26 18:59:35 [INFO] Server initializing...
+2026-03-26 18:59:35 [WARN] This is a warning test
+2026-03-26 18:59:35 [ERROR] This is an error test
+2026-03-26 18:59:35 [INFO] HTTPS server running on port 8443
+2026-03-26 18:59:35 [INFO] Connected to MongoDB.
+2026-03-26 19:01:37 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 19:01:37 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-26 19:03:01 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-26 19:03:01 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-27 16:57:35 [INFO] Application started
+2026-03-27 16:57:35 [INFO] Server initializing...
+2026-03-27 16:57:35 [WARN] This is a warning test
+2026-03-27 16:57:35 [ERROR] This is an error test
+2026-03-27 16:57:38 [INFO] HTTPS server running on port 8443
+2026-03-27 16:57:39 [INFO] Connected to MongoDB.
+2026-03-27 17:10:35 [INFO] Application started
+2026-03-27 17:10:35 [INFO] Server initializing...
+2026-03-27 17:10:35 [WARN] This is a warning test
+2026-03-27 17:10:35 [ERROR] This is an error test
+2026-03-27 17:10:36 [INFO] HTTPS server running on port 8443
+2026-03-27 17:10:36 [INFO] Connected to MongoDB.
+2026-03-27 17:10:53 [INFO] Application started
+2026-03-27 17:10:53 [INFO] Server initializing...
+2026-03-27 17:10:53 [WARN] This is a warning test
+2026-03-27 17:10:53 [ERROR] This is an error test
+2026-03-27 17:10:54 [INFO] HTTPS server running on port 8443
+2026-03-27 17:10:54 [INFO] Connected to MongoDB.
+2026-03-27 17:18:07 [INFO] Application started
+2026-03-27 17:18:07 [INFO] Server initializing...
+2026-03-27 17:18:07 [WARN] This is a warning test
+2026-03-27 17:18:07 [ERROR] This is an error test
+2026-03-27 17:18:07 [INFO] HTTPS server running on port 8443
+2026-03-27 17:18:07 [INFO] Connected to MongoDB.
+2026-03-27 17:36:36 [INFO] Application started
+2026-03-27 17:36:36 [INFO] Server initializing...
+2026-03-27 17:36:36 [WARN] This is a warning test
+2026-03-27 17:36:36 [ERROR] This is an error test
+2026-03-27 17:36:36 [INFO] HTTPS server running on port 8443
+2026-03-27 17:36:36 [INFO] Connected to MongoDB.
+2026-03-27 17:41:51 [INFO] Application started
+2026-03-27 17:41:51 [INFO] Server initializing...
+2026-03-27 17:41:51 [WARN] This is a warning test
+2026-03-27 17:41:51 [ERROR] This is an error test
+2026-03-27 17:41:51 [INFO] HTTPS server running on port 8443
+2026-03-27 17:41:51 [INFO] Connected to MongoDB.
+2026-03-27 17:44:55 [INFO] Application started
+2026-03-27 17:44:55 [INFO] Server initializing...
+2026-03-27 17:44:55 [WARN] This is a warning test
+2026-03-27 17:44:55 [ERROR] This is an error test
+2026-03-27 17:44:55 [INFO] HTTPS server running on port 8443
+2026-03-27 17:44:55 [INFO] Connected to MongoDB.
+2026-03-27 17:49:06 [INFO] Application started
+2026-03-27 17:49:06 [INFO] Server initializing...
+2026-03-27 17:49:06 [WARN] This is a warning test
+2026-03-27 17:49:06 [ERROR] This is an error test
+2026-03-27 17:49:06 [INFO] HTTPS server running on port 8443
+2026-03-27 17:49:06 [INFO] Connected to MongoDB.
+2026-03-27 17:49:19 [INFO] Application started
+2026-03-27 17:49:19 [INFO] Server initializing...
+2026-03-27 17:49:19 [WARN] This is a warning test
+2026-03-27 17:49:19 [ERROR] This is an error test
+2026-03-27 17:49:19 [INFO] HTTPS server running on port 8443
+2026-03-27 17:49:19 [INFO] Connected to MongoDB.
+2026-03-27 17:52:47 [INFO] Application started
+2026-03-27 17:52:47 [INFO] Server initializing...
+2026-03-27 17:52:47 [WARN] This is a warning test
+2026-03-27 17:52:47 [ERROR] This is an error test
+2026-03-27 17:52:48 [INFO] HTTPS server running on port 8443
+2026-03-27 17:52:48 [INFO] Connected to MongoDB.
+2026-03-27 17:54:50 [INFO] Application started
+2026-03-27 17:54:50 [INFO] Server initializing...
+2026-03-27 17:54:50 [WARN] This is a warning test
+2026-03-27 17:54:50 [ERROR] This is an error test
+2026-03-27 17:54:50 [INFO] HTTPS server running on port 8443
+2026-03-27 17:54:50 [INFO] Connected to MongoDB.
+2026-03-27 18:02:55 [INFO] Application started
+2026-03-27 18:02:55 [INFO] Server initializing...
+2026-03-27 18:02:55 [WARN] This is a warning test
+2026-03-27 18:02:55 [ERROR] This is an error test
+2026-03-27 18:02:55 [INFO] HTTPS server running on port 8443
+2026-03-27 18:02:56 [INFO] Connected to MongoDB.
+2026-03-27 18:06:06 [INFO] Application started
+2026-03-27 18:06:06 [INFO] Server initializing...
+2026-03-27 18:06:06 [WARN] This is a warning test
+2026-03-27 18:06:06 [ERROR] This is an error test
+2026-03-27 18:06:06 [INFO] HTTPS server running on port 8443
+2026-03-27 18:06:07 [INFO] Connected to MongoDB.
+2026-03-27 18:30:49 [INFO] Application started
+2026-03-27 18:30:49 [INFO] Server initializing...
+2026-03-27 18:30:49 [WARN] This is a warning test
+2026-03-27 18:30:49 [ERROR] This is an error test
+2026-03-27 18:30:49 [INFO] HTTPS server running on port 8443
+2026-03-27 18:30:49 [INFO] Connected to MongoDB.
+2026-03-27 18:37:22 [INFO] Application started
+2026-03-27 18:37:22 [INFO] Server initializing...
+2026-03-27 18:37:22 [WARN] This is a warning test
+2026-03-27 18:37:22 [ERROR] This is an error test
+2026-03-27 18:37:22 [INFO] HTTPS server running on port 8443
+2026-03-27 18:37:22 [INFO] Connected to MongoDB.
+2026-03-28 08:52:44 [INFO] Application started
+2026-03-28 08:52:44 [INFO] Server initializing...
+2026-03-28 08:52:44 [WARN] This is a warning test
+2026-03-28 08:52:44 [ERROR] This is an error test
+2026-03-28 08:52:48 [INFO] HTTPS server running on port 8443
+2026-03-28 08:52:49 [INFO] Connected to MongoDB.
+2026-03-30 14:39:28 [INFO] Application started
+2026-03-30 14:39:28 [INFO] Server initializing...
+2026-03-30 14:39:28 [WARN] This is a warning test
+2026-03-30 14:39:28 [ERROR] This is an error test
+2026-03-30 14:39:29 [INFO] HTTPS server running on port 8443
+2026-03-30 14:39:30 [INFO] Connected to MongoDB.
+2026-03-31 08:58:23 [INFO] Application started
+2026-03-31 08:58:23 [INFO] Server initializing...
+2026-03-31 08:58:23 [WARN] This is a warning test
+2026-03-31 08:58:23 [ERROR] This is an error test
+2026-03-31 08:58:30 [INFO] HTTPS server running on port 8443
+2026-03-31 08:58:31 [INFO] Connected to MongoDB.
+2026-03-31 10:00:00 [INFO] Application started
+2026-03-31 10:00:00 [INFO] Server initializing...
+2026-03-31 10:00:00 [WARN] This is a warning test
+2026-03-31 10:00:00 [ERROR] This is an error test
+2026-03-31 10:00:03 [INFO] HTTPS server running on port 8443
+2026-03-31 10:00:03 [INFO] Connected to MongoDB.
+2026-03-31 10:08:56 [INFO] Application started
+2026-03-31 10:08:56 [INFO] Server initializing...
+2026-03-31 10:08:56 [WARN] This is a warning test
+2026-03-31 10:08:56 [ERROR] This is an error test
+2026-03-31 10:08:56 [INFO] HTTPS server running on port 8443
+2026-03-31 10:08:56 [INFO] Connected to MongoDB.
+2026-03-31 10:09:12 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-31 10:09:12 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-31 10:09:14 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-31 10:09:14 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-31 10:15:13 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-31 10:15:13 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-31 10:15:19 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-31 10:15:19 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1
+2026-03-31 10:17:59 [INFO] [AUTH] Login attempt | user=testuser2 | ip=::1
+2026-03-31 10:17:59 [INFO] [AUTH] User signed in successfully | user=testuser2 | ip=::1

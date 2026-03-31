@@ -1,0 +1,21 @@
+$kind: http-request
+name: https://localhost:8443/api/auth/signin
+url: https://localhost:8443/api/auth/signin
+method: GET
+headers:
+  Authorization: Bearer
+    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWMzNTc4ZDk2MGFiZGE4YzIzMjk2NCIsImlhdCI6MTc3Mjg5MzU4MywiZXhwIjoxNzcyOTc5OTgzfQ.qWB09TkCZLMrvk--hd0yQr2Ui83H3Ng3MU08ANsDiXo
+body:
+  type: json
+  content: "{\r
+
+    \  \"username\": \"geletaw\",\r
+
+    \  \"password\": \"mypassword123\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWMzNTc4ZDk2MGFiZGE4YzIzMjk2NCIsImlhdCI6MTc3Mjg5NDM5MywiZXhwIjoxNzcyOTgwNzkzfQ.6RQV5JOMf5beIQCYr4bIRVWQs3iY7GZa1PsMspDUNO0
+order: 1772895257302
