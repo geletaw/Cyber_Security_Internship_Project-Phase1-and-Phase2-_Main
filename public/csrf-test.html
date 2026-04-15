@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSRF Test Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f0f0f0; }
+    h2 { color: #333; }
+    #response { margin-top: 20px; padding: 10px; border: 1px solid #ccc; white-space: pre-wrap; background: #fff; }
+    input, button { padding: 8px; font-size: 14px; margin: 5px 0; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h2>CSRF Test Form</h2>
+
+  <form id="csrfForm">
+    <input type="hidden" name="_csrf" value="">
+    <label for="dataInput">Send Data:</label><br>
+    <input type="text" id="dataInput" value="test"><br>
+    <button type="submit">Send POST Request</button>
+  </form>
+
+  <div id="response">Response will appear here...</div>
+
+  <script>
+    // ------------------- CONFIG -------------------
+    const BASE_URL = 'https://10.6.13.119:8443/api/test'; // matches your server.js router
+    const API_KEY = 'Gele123';
+
+    // ------------------- FETCH CSRF TOKEN -------------------
+    async function fetchCsrf() {
+      try {
+        const res = await fetch(`${BASE_URL}/csrf-token`, {
+          method: 'GET',
+          headers: { 'X-API-KEY': API_KEY },
+          credentials: 'include'
+        });
+
+        const data = await res.json();
+        document.querySelector('input[name="_csrf"]').value = data.csrfToken;
+        console.log('CSRF token fetched:', data.csrfToken);
+
+      } catch (err) {
+        document.getElementById('response').innerText =
+          'Error fetching CSRF token: ' + err;
+      }
+    }
+
+    // ------------------- SEND POST REQUEST -------------------
+    document.getElementById('csrfForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const csrfToken = document.querySelector('input[name="_csrf"]').value;
+      const dataValue = document.getElementById('dataInput').value;
+
+      try {
+        const res = await fetch(BASE_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-API-KEY': API_KEY
+          },
+          credentials: 'include',
+          body: JSON.stringify({
+            _csrf: csrfToken,
+            data: dataValue
+          })
+        });
+
+        const responseData = await res.json();
+        document.getElementById('response').innerText =
+          JSON.stringify(responseData, null, 2);
+
+      } catch (err) {
+        document.getElementById('response').innerText =
+          'Error sending POST request: ' + err;
+      }
+    });
+
+    // ------------------- INITIALIZE -------------------
+    fetchCsrf();
+  </script>
+</body>
+</html>

@@ -75,12 +75,29 @@ exports.signup = (req, res) => {
 // ================= SIGNIN =================
 exports.signin = (req, res) => {
   const username = req.body.username;
+  const password = req.body.password;
   const ip = req.ip;
   const key = `${username}-${ip}`;
 
   logger.info(`[AUTH] Login attempt | user=${username} | ip=${ip}`);
 
-  // Initialize failedAttempts
+  // ================= 🛡 INPUT VALIDATION =================
+  if (typeof username !== "string" || typeof password !== "string") {
+    logger.warn(`[SECURITY] Invalid input type | user=${username} | ip=${ip}`);
+    return res.status(400).json({
+      message: "Invalid input: username and password must be strings"
+    });
+  }
+
+  // Prevent NoSQL injection patterns
+  if (username.includes("$") || password.includes("$")) {
+    logger.warn(`[SECURITY] Possible injection attempt detected | user=${username} | ip=${ip}`);
+    return res.status(400).json({
+      message: "Invalid characters in input"
+    });
+  }
+
+  // ================= FAILED ATTEMPTS =================
   if (!failedAttempts[key]) failedAttempts[key] = 0;
 
   // 1️⃣ Check if IP is currently blocked
@@ -90,7 +107,6 @@ exports.signin = (req, res) => {
       message: "Too many failed login attempts. Your IP is temporarily blocked. Try again later."
     });
   } else if (blockedIPs[key] && blockedIPs[key] <= Date.now()) {
-    // Block expired
     delete blockedIPs[key];
     failedAttempts[key] = 0;
     logger.info(`[SECURITY] Temporary block expired | user=${username} | ip=${ip}`);
@@ -115,8 +131,16 @@ exports.signin = (req, res) => {
       return res.status(404).send({ message: "User Not found." });
     }
 
-    // PASSWORD VALIDATION
-    const passwordIsValid = bcrypt.compareSync(req.body.password, user.password);
+    // ================= 🛡 SAFE PASSWORD CHECK =================
+    let passwordIsValid = false;
+
+    try {
+      passwordIsValid = bcrypt.compareSync(password, user.password);
+    } catch (error) {
+      logger.error(`[SECURITY] Bcrypt error (possible attack) | user=${username} | ip=${ip}`);
+      return res.status(400).json({ message: "Invalid input format" });
+    }
+
     if (!passwordIsValid) {
       failedAttempts[key]++;
       logger.warn(`[AUTH] Failed login attempt ${failedAttempts[key]} | Invalid password -> ${username} | ip=${ip}`);
@@ -128,11 +152,16 @@ exports.signin = (req, res) => {
       return res.status(401).send({ accessToken: null, message: "Invalid Password!" });
     }
 
-    // ✅ Successful login resets counters
+    // ✅ SUCCESS
     delete failedAttempts[key];
     if (blockedIPs[key]) delete blockedIPs[key];
 
-    const token = jwt.sign({ id: user._id }, config.secret, { algorithm: "HS256", expiresIn: 86400 });
+    const token = jwt.sign(
+      { id: user._id },
+      config.secret,
+      { algorithm: "HS256", expiresIn: 86400 }
+    );
+
     const authorities = user.roles.map(role => "ROLE_" + role.name.toUpperCase());
 
     logger.info(`[AUTH] User signed in successfully | user=${user.username} | ip=${ip}`);
