@@ -1,2 +1,30 @@
 node_modules
 package-lock.json
+
+# Private keys (NEVER UPLOAD)
+*.pem
+*.key
+
+# Environment files (VERY IMPORTANT)
+.env
+
+# Keys / certificates
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# Logs & scans
+*.log
+gobuster_full.txt
+request.txt
+security.log
+
+# Postman (may contain tokens)
+postman/
+.postman/
+
+# Temporary files
+~$*
+*.tmp
